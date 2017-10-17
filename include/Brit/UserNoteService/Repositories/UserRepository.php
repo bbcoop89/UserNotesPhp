@@ -9,7 +9,9 @@
 namespace Brit\UserNoteService\Repositories;
 
 
-class UserRepository
+use Doctrine\ORM\EntityRepository;
+
+class UserRepository extends EntityRepository
 {
 
 }
